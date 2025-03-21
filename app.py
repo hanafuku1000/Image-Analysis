@@ -143,7 +143,7 @@ if uploaded_file is not None: #uploaded_fileがある(not None)場合
         draw.rectangle([(x, y), (x+w, y+h)], fill=None, outline="green", width=5)  
         
         #文字情報の準備
-        font_1 = ImageFont.truetype("./ARIAL.ttf", size =50)
+        font_1 = ImageFont.truetype("./ARIAL.TTF", size =50)
         padding = 18  # 余白を設定
         
         #captionの文字の高さと幅の情報を取得
